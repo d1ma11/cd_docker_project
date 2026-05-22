@@ -1,0 +1,6 @@
+services:
+  web:
+    image: dandi0302/cd_docker_project:latest
+    ports:
+      - '8081:5000'
+    restart: always
